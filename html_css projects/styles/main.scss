@@ -1,0 +1,33 @@
+@import 'bourbon/bourbon';
+$visual-grid: true;
+$visual-grid-color: #333;
+$visual-grid-size: 1800px;
+@import 'neat/neat';
+
+/* colors */
+$celestial-blue: #4aa1d1;
+$primary-color: $celestial-blue;
+
+/* fonts */
+$body-font: 'helvetica', sans-serif;
+$headings: 'lucida-grande' , serif;
+
+.headline {
+  color: $primary-color;
+}
+
+.para {
+  max-width: 350px;
+  color: $primary-color;
+
+}
+
+.img {
+  display: inline-block;
+}
+
+
+
+.body {
+  color: white;
+}
